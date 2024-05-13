@@ -72,7 +72,7 @@ java -Xmx50g -jar /master/xli/software/GATK/GenomeAnalysisTK.jar \
 
 java -Xmx50g -jar /master/xli/software/GATK/GenomeAnalysisTK.jar \
 -T VariantsToTable \
--R /data/infectious/malaria_XUE/cross/Parents/mergeAllparents/MAL31.REF/Mal31.SNP.fasta \
+-R /data/infectious/malaria_XUE/cross/BSA2_lifecycle_drug/NF54_NHP4026/NF54ref/NF54.SNP.fasta \
 -V BSA5.NF54-NHP4026.SNP.filter.vcf \
 -L /master/xli/Index/Known_sites/Core_Genome2.intervals \
 -F CHROM -F POS -F REF -F ALT \
